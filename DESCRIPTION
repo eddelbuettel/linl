@@ -1,0 +1,15 @@
+Package: linl
+Type: Package
+Title: 'linl' is not 'PNAS'
+Version: 0.0.1
+Date: 2017-10-15
+Author: Dirk Eddelbuettel and Aaron Wolen
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Description: A LaTeX Letter for 'rmarkdown', using the 'pandoc-letter'
+ template adapted for use with 'markdown'.
+URL: http://dirk.eddelbuettel.com/code/linl.html
+BugReports: https://github.com/eddelbuettel/linl/issues
+Imports: rmarkdown, knitr
+VignetteBuilder: knitr
+License: GPL-3
+RoxygenNote: 6.0.1

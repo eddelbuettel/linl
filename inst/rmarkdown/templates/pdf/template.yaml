@@ -1,0 +1,4 @@
+name: Linl Is Not Letter (PDF)
+description: >
+  A wrapper for the LaTeX Latter class
+create_dir: false

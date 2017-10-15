@@ -1,0 +1,5 @@
+#!/bin/sh
+
+(cd vignettes && \
+    rm -rf jss.bst linl.bbl linl.bib linl.cls linl.pdf linl.tex linl.xwm linl_files/ && \
+    cd ..)
