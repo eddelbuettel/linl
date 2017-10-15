@@ -33,7 +33,7 @@
 #' package version 1.17.
 #'
 #' Aaron Wolen (2017). pandoc-letter. GitHub Repository. \url{https://github.com/aaronwolen/pandoc-letter}
-linl <- function(..., keep_tex = TRUE) {
+linl <- function(..., keep_tex = FALSE) {
 
     template <- system.file("rmarkdown", "templates", "pdf", "resources", "template.tex",
                             package="linl")
