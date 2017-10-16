@@ -8,7 +8,7 @@ The LaTeX Letter class is very useful for simple letters.  As such
 letters are also somewhat standardized, they make for excellent
 candidates for use by Markdown.
 
-This package leans on earlier work by [Aaron Woolen](http://aaronwolen.com/) in his
+This package leans on earlier work by [Aaron Wolen](http://aaronwolen.com/) in his
 [pandoc-letter](https://github.com/aaronwolen/pandoc-letter) repository, and extends it for use from
 R via the [rmarkdown](https://cran.r-project.org/package=rmarkdown) package.
 
@@ -16,7 +16,7 @@ R via the [rmarkdown](https://cran.r-project.org/package=rmarkdown) package.
 
 #### Skeleton
 
-The skelecon creates a very simple letter.  This shows the (complete) source on the left and the
+The skeleton creates a very simple letter.  This shows the (complete) source on the left and the
 rendered pdf on the right:
 
 ![](https://eddelbuettel.github.io/linl/skeleton.png)
@@ -60,7 +60,7 @@ The pdf mode should only require a basic LaTeX installation.
 
 ### Authors
 
-Dirk Eddelbuettel, leaning on the earlier work by Aaron Woolen.
+Dirk Eddelbuettel, leaning on the earlier work by Aaron Wolen.
 
 ### License
 
