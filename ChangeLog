@@ -1,0 +1,16 @@
+2017-10-16  Dirk Eddelbuettel  <edd@debian.org>
+
+	* R/linl.R (linl): Set keep.tex default to FALSE
+	* man/linl.R: Updated
+
+2017-10-15  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION: Initial pre-release version 0.0.1
+	* inst/inst/rmarkdown/templates/pdf/resources/template.tex: Based on
+	Aaron's template
+	* inst/inst/rmarkdown/templates/pdf/skeleton/skeleton.Rmd: Simplified
+	version based on Aaron's example
+	* R/linl.R: Rmarkdown integration
+	* vignette/*: Full-featured example based on Aaron's example
+	* docs/*: Two screenshots based on skeleton and vignette
+	* README.md: First version linking to screenshots

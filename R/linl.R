@@ -6,7 +6,7 @@
 #' @inheritParams rmarkdown::pdf_document
 #' @param ... Additional arguments to \code{rmarkdown::pdf_document}
 #' @param keep_tex A boolean toggle to select whether intermediate
-#' LaTeX files are to be kept, defaults to \code{TRUE}
+#' LaTeX files are to be kept, defaults to \code{FALSE}
 #' @return R Markdown output format to pass to
 #' \code{\link[rmarkdown:render]{render}}
 #'

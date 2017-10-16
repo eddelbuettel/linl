@@ -4,13 +4,13 @@
 \alias{linl}
 \title{LaTeX Letter format}
 \usage{
-linl(..., keep_tex = TRUE)
+linl(..., keep_tex = FALSE)
 }
 \arguments{
 \item{...}{Additional arguments to \code{rmarkdown::pdf_document}}
 
 \item{keep_tex}{A boolean toggle to select whether intermediate
-LaTeX files are to be kept, defaults to \code{TRUE}}
+LaTeX files are to be kept, defaults to \code{FALSE}}
 }
 \value{
 R Markdown output format to pass to

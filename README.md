@@ -60,7 +60,7 @@ The pdf mode should only require a basic LaTeX installation.
 
 ### Authors
 
-Dirk Eddelbuettel, leaning on the earlier work by Aaron Wolen.
+Dirk Eddelbuettel and Aaron Wolen.
 
 ### License
 
