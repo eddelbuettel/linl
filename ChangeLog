@@ -1,3 +1,9 @@
+2017-10-17  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Initial CRAN Release 0.0.1
+
+	* .travis.yml: Added Travis invocation via standard run.sh
+
 2017-10-16  Dirk Eddelbuettel  <edd@debian.org>
 
 	* R/linl.R (linl): Set keep.tex default to FALSE
