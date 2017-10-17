@@ -1,11 +1,11 @@
 Package: linl
 Type: Package
-Title: 'linl' is not 'PNAS'
+Title: 'linl' is not 'Letter'
 Version: 0.0.1
 Date: 2017-10-17
 Author: Dirk Eddelbuettel and Aaron Wolen
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Description: A 'LaTeX' Letter call for 'rmarkdown', using the
+Description: A 'LaTeX' Letter class for 'rmarkdown', using the
  'pandoc-letter' template adapted for use with 'markdown'.
 URL: http://dirk.eddelbuettel.com/code/linl.html
 BugReports: https://github.com/eddelbuettel/linl/issues
