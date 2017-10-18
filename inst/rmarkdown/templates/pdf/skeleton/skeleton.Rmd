@@ -17,7 +17,6 @@ cc:
 - Recipient
 encl:
 - Enclosure 
-geometry: margin=1in
 blockquote: true
 output: linl::linl
 ---
