@@ -18,7 +18,6 @@ cc:
 encl:
 - Enclosure 
 fontfamily: mathpazo
-fontsize: 11pt
 geometry: margin=1in
 blockquote: true
 output: linl::linl
