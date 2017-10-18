@@ -247,12 +247,8 @@ $endif$
 
 $body$
 
-$if(closing)$
-$if(closing-indentation)$
-\longindentation=$closing-indentation$
-$endif$
-\closing{$closing$}
-$endif$
+\longindentation=$if(closing-indentation)$$closing-indentation$$else$0pt$endif$
+$if(closing)$\closing{$closing$}$endif$
 $if(encl)$
 \encl{$for(encl)$$encl$$sep$\\$endfor$}
 $endif$
