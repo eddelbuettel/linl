@@ -1,8 +1,8 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{letter}
+\documentclass[$if(fontsize)$$fontsize$$else$11pt$endif$,$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{letter}
 $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
 $else$
-\usepackage{lmodern}
+\usepackage{mathpazo}
 $endif$
 $if(linestretch)$
 \usepackage{setspace}
@@ -54,9 +54,7 @@ $endif$
 \usepackage{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-$if(geometry)$
-\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
-$endif$
+\usepackage[$if(geometry)$$for(geometry)$$geometry$$sep$,$endfor$$else$margin=1in$endif$]{geometry}
 \usepackage[unicode=true]{hyperref}
 $if(colorlinks)$
 \PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
@@ -249,12 +247,8 @@ $endif$
 
 $body$
 
-$if(closing)$
-$if(closing-indentation)$
-\longindentation=$closing-indentation$
-$endif$
-\closing{$closing$}
-$endif$
+\longindentation=$if(closing-indentation)$$closing-indentation$$else$0pt$endif$
+$if(closing)$\closing{$closing$}$endif$
 $if(encl)$
 \encl{$for(encl)$$encl$$sep$\\$endfor$}
 $endif$
