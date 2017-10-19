@@ -211,7 +211,9 @@ $header-includes$
 $endfor$
 \address{$for(return-address)$$return-address$$sep$\\$endfor$}
 
-$if(blockquote)$
+$if(plainquote)$
+% nuttin, defaults are used
+$else$
 \usepackage{mdframed} % color is loaded by mdframed
 \definecolor{greyborder}{RGB}{221,221,221}
 \definecolor{greytext}{RGB}{119,119,119}

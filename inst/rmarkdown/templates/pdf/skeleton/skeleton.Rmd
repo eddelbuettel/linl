@@ -4,7 +4,6 @@ author:
 - Some Organization
 opening: Dear Dirk,
 closing: Sincerely,
-date: 12 December 2020
 address:
 - Dirk Eddelbuettel
 - 123 Street Rd
@@ -17,7 +16,6 @@ cc:
 - Recipient
 encl:
 - Enclosure 
-blockquote: true
 output: linl::linl
 ---
 

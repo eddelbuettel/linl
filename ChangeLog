@@ -1,3 +1,9 @@
+2017-10-19  Dirk Eddelbuettel  <edd@debian.org>
+
+	* inst/rmarkdown/templates/pdf/resources/template.tex: Blockquote
+	a default as what was opt-in is now opt-out ("plainquote: true")
+	* inst/rmarkdown/templates/pdf/skeleton/skeleton.Rmd: Updated
+
 2017-10-18  Aaron Wolen  <aaron@wolen.com>
 
 	* inst/rmarkdown/templates/pdf/resources/template.tex: Set more
