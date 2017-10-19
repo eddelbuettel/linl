@@ -1,3 +1,9 @@
+2017-10-18  Aaron Wolen  <aaron@wolen.com>
+
+	* inst/rmarkdown/templates/pdf/resources/template.tex: Set more
+	default choices: fontsize, font, margins, signature indentation
+	* inst/rmarkdown/templates/pdf/skeleton/skeleton.Rmd: Idem
+
 2017-10-17  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Initial CRAN Release 0.0.1
