@@ -34,7 +34,7 @@ The package is working, but not yet on [CRAN](https://cran.r-project.org/).
 
 ### Usage 
 
-Use the standard 
+If the package were on CRAN, you could use the standard 
 
 ```r
 install.packages("linl")
@@ -50,13 +50,22 @@ render("myletter.Rmd")
 
 to create a first draft of a new `myletter.Rmd`.
 
+But as it isn't yet on CrAN, depspite as of now four days and counting in incoming (which is beyond absurd given 
+the package), you can also install it from the [ghrr drat repo](https://ghrr.github.io/drat/) via one additional
+line as in
+
+```r
+drat:::addRepo("ghrr")     # registers the ghrr drat repo
+install.packages("linl")   # installs linl from ghrr
+```
+
+Once installed, the above code examples work of course as expected.
+
 ### Requirements
 
 Beyond the R package dependencies, a working `pandoc` binary is needed. RStudio installs
 its own copy, otherwise do what is needed on your OS (_i.e._, something like `sudo apt-get
 install pandoc pandoc-citeproc`).
-
-The pdf mode should only require a basic LaTeX installation.
 
 ### Authors
 
