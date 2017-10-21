@@ -50,7 +50,7 @@ render("myletter.Rmd")
 
 to create a first draft of a new `myletter.Rmd`.
 
-But as it isn't yet on CrAN, depspite as of now four days and counting in incoming (which is beyond absurd given 
+But as it isn't yet on CrAN, despite as of now four days and counting in incoming (which is beyond absurd given 
 the package), you can also install it from the [ghrr drat repo](https://ghrr.github.io/drat/) via one additional
 line as in
 
