@@ -1,8 +1,8 @@
 Package: linl
 Type: Package
 Title: 'linl' is not 'Letter'
-Version: 0.0.1.1
-Date: 2017-10-18
+Version: 0.0.1.2
+Date: 2017-10-22
 Author: Dirk Eddelbuettel and Aaron Wolen
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Description: A 'LaTeX' Letter class for 'rmarkdown', using the

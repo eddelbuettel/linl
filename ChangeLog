@@ -1,5 +1,7 @@
 2017-10-22  Dirk Eddelbuettel  <edd@debian.org>
 
+	* DESCRIPTION (Version): Roll minor version and date
+
 	* vignettes/linl.Rmd: More minimal vignette, removed now-default args
 	* docs/vignette.png: Updated screenshot
 
