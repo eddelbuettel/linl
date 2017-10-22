@@ -37,11 +37,11 @@ letter.
         
 ### Status
 
-The package is working, but not yet on [CRAN](https://cran.r-project.org/).
+The package is fully working, and on [CRAN](https://cran.r-project.org/).
 
 ### Usage 
 
-If the package were on CRAN, you could use the standard 
+As the package is on CRAN, you can use the standard 
 
 ```r
 install.packages("linl")
@@ -55,18 +55,17 @@ draft("myletter.Rmd", template="pdf", package="linl", edit=FALSE)
 render("myletter.Rmd")
 ```
 
-to create a first draft of a new `myletter.Rmd`.
+to create a first draft of a new `myletter.Rmd`.        
 
-But as it isn't yet on CrAN, despite as of now four days and counting in incoming (which is beyond absurd given 
-the package), you can also install it from the [ghrr drat repo](https://ghrr.github.io/drat/) via one additional
-line as in
+Interim and test versions may also appear on the [ghrr drat repo](https://ghrr.github.io/drat/) from
+which they can be installed via one additional line as in
 
 ```r
 drat:::addRepo("ghrr")     # registers the ghrr drat repo
 install.packages("linl")   # installs linl from ghrr
 ```
 
-Once installed, the above code examples work of course as expected.
+Once installed, the above code examples should work as expected.
 
 ### Requirements
 
