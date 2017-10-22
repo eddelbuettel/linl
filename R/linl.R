@@ -15,11 +15,11 @@
 #' rmarkdown::draft("MyLetter.Rmd", template = "pdf", package = "linl")
 #' rmarkdown::render("MyLetter.Rmd")
 #' }
-#' 
+#'
 #' @section Letter features:
 #' Various aspects of the letter can be customized by setting the following
-#' variables in your document's metadata:
-#' 
+#' variables in the document metadata:
+#'
 #' \describe{
 #'   \item{\code{address}}{Name and address of the recipient; takes a list for a multi-line address.}
 #'   \item{\code{author}}{Writer of the letter; can take a list for a multi-line signature.}
@@ -27,7 +27,7 @@
 #'   \item{\code{cc}}{Recipients to be carbon-copied; can take a list for multiple recipients.}
 #'   \item{\code{closing}}{Text for the complementary close.}
 #'   \item{\code{closing-indentation}}{Amount for closing signature block to be intended from left margin.}
-#'   \item{\code{date}}{Custom date (current date will be automatically inserted if not specified).}
+#'   \item{\code{date}}{Custom date, and the current date will be automatically inserted if not specified.}
 #'   \item{\code{encl}}{List of enclosures.}
 #'   \item{\code{letterhead}}{Image file to be used as letterhead (requires the \href{https://www.ctan.org/pkg/wallpaper}{\code{wallpaper}} package), applied only to the first page.}
 #'   \item{\code{opening}}{Text for the salutation.}
@@ -36,6 +36,8 @@
 #'   \item{\code{signature}}{Image file for a signature.}
 #'   \item{\code{signature-before}, \code{signature-after}}{Allows adjustment of vertical space surrounding signature.}
 #' }
+#'
+#' The vignette source shows several of these options in use.
 #'
 #' @seealso
 #' \code{\link[pinp]{pinp}}
@@ -53,7 +55,7 @@
 #' Yihui Xie (2017). knitr: A General-Purpose Package for Dynamic Report Generation in R. R
 #' package version 1.17.
 #'
-#' Aaron Wolen (2017). pandoc-letter. GitHub Repository. \url{https://github.com/aaronwolen/pandoc-letter}
+#' Aaron Wolen (2017). pandoc-letter. GitHub Repository. \url{https://github.com/aaronwolen/pandoc-letter}.
 linl <- function(..., keep_tex = FALSE) {
 
     template <- system.file("rmarkdown", "templates", "pdf", "resources", "template.tex",

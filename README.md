@@ -21,13 +21,20 @@ rendered pdf on the right:
 
 ![](https://eddelbuettel.github.io/linl/skeleton.png)
 
+Several formatting defaults for font, fontsize, indentation are in use. See `help(linl)` for a 
+complete list and default values.
+
 #### Vignette
 
-The vignette example is a little more featureful and shows how to included a letterhead on-demand,
-as well as a signature.  Both of these are driven by simple YAML headers as seen on the left:
+The vignette example is a little more featureful and shows how to include a letterhead on-demand, a
+signature, and a few formatting settings.  All of these are driven by simple YAML headers as seen on
+the left:
 
 ![](https://eddelbuettel.github.io/linl/vignette.png)
 
+The vignette also contains the few lines of vignette metadata one would exclude from a normal
+letter.
+        
 ### Status
 
 The package is working, but not yet on [CRAN](https://cran.r-project.org/).
