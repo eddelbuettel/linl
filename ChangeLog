@@ -1,3 +1,12 @@
+2017-10-22  Dirk Eddelbuettel  <edd@debian.org>
+
+	* inst/rmarkdown/templates/pdf/skeleton/skeleton.Rmd: More minimal
+	* docs/skeleton.png: Updated screenshot
+
+2017-10-21  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Show installation via drat repo
+
 2017-10-19  Dirk Eddelbuettel  <edd@debian.org>
 
 	* inst/rmarkdown/templates/pdf/resources/template.tex: Blockquote
