@@ -5,8 +5,9 @@
 
 \section{Changes in tint version 0.0.2 (2017-10-xx)}{
   \itemize{
-    \item See a few defaults for a decent-looking skeleton and template
-    (Aaron in \ghpr{3}) 
+    \item Set a few defaults for a decent-looking skeleton and template
+    (\ghpr{3})
+    \item Updated \code{skeleton.Rmd} and vignette source accordingly
   }
 }
 
