@@ -26,7 +26,6 @@ signature: examples/signature.pdf
 signature-before: -8ex
 signature-after: 0ex
 
-links-as-notes: true
 colorlinks: true
 
 output: linl::linl

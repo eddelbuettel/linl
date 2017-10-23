@@ -23,7 +23,7 @@ helpful extensions
 \section{Letter features}{
 
 Various aspects of the letter can be customized by setting the following
-variables in your document's metadata:
+variables in the document metadata:
 
 \describe{
   \item{\code{address}}{Name and address of the recipient; takes a list for a multi-line address.}
@@ -32,8 +32,9 @@ variables in your document's metadata:
   \item{\code{cc}}{Recipients to be carbon-copied; can take a list for multiple recipients.}
   \item{\code{closing}}{Text for the complementary close.}
   \item{\code{closing-indentation}}{Amount for closing signature block to be intended from left margin.}
-  \item{\code{date}}{Custom date (current date will be automatically inserted if not specified).}
+  \item{\code{date}}{Custom date, and the current date will be automatically inserted if not specified.}
   \item{\code{encl}}{List of enclosures.}
+  \item{\code{inline-links}}{Print links as standard inline hyperlinks rather than footnotes.}
   \item{\code{letterhead}}{Image file to be used as letterhead (requires the \href{https://www.ctan.org/pkg/wallpaper}{\code{wallpaper}} package), applied only to the first page.}
   \item{\code{opening}}{Text for the salutation.}
   \item{\code{ps}}{Text to be added at the end of the letter as a postscript.}
@@ -41,6 +42,8 @@ variables in your document's metadata:
   \item{\code{signature}}{Image file for a signature.}
   \item{\code{signature-before}, \code{signature-after}}{Allows adjustment of vertical space surrounding signature.}
 }
+
+The vignette source shows several of these options in use.
 }
 
 \examples{
@@ -64,7 +67,7 @@ R package version 1.6. \url{https://CRAN.R-project.org/package=rmarkdown}
 Yihui Xie (2017). knitr: A General-Purpose Package for Dynamic Report Generation in R. R
 package version 1.17.
 
-Aaron Wolen (2017). pandoc-letter. GitHub Repository. \url{https://github.com/aaronwolen/pandoc-letter}
+Aaron Wolen (2017). pandoc-letter. GitHub Repository. \url{https://github.com/aaronwolen/pandoc-letter}.
 }
 \seealso{
 \code{\link[pinp]{pinp}}
