@@ -1,3 +1,14 @@
+2017-10-29  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.0.2
+
+2017-10-23  Aaron Wolen  <aaron@wolen.com>
+
+	* inst/rmarkdown/templates/pdf/resources/template.tex: Print links
+	as footnotes by default
+	* R/linl.R: Document this
+	* man/linl.Rd: Idem
+
 2017-10-22  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version): Roll minor version and date
@@ -11,6 +22,11 @@
 2017-10-21  Dirk Eddelbuettel  <edd@debian.org>
 
 	* README.md: Show installation via drat repo
+
+2017-10-19  Aaron Wolen  <aaron@wolen.com>
+
+	* R/linl.R: Document template variables
+	* man/linl.Rd: Idem
 
 2017-10-19  Dirk Eddelbuettel  <edd@debian.org>
 

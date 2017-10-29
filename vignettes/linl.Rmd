@@ -31,7 +31,7 @@ colorlinks: true
 output: linl::linl
 
 vignette: >
-  %\VignetteIndexEntry{linl}
+  %\VignetteIndexEntry{linl example letter}
   %\VignetteKeywords{linl,vignette}
   %\VignettePackage{linl}
   %\VignetteEngine{knitr::rmarkdown}
