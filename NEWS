@@ -1,5 +1,0 @@
-version 0.0.3
-- fixed LaTeX problem caused by double loading of \usepackage{color} with different
-  options. Occurred when specifying 'letterhead' while 'colorlinks' was 'false'.
-
-
