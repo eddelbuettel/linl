@@ -3,6 +3,13 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/linl/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/linl/issues/#1}{##1}}
 
+\section{Changes in linl version 0.0.3 (2018-06-xx)}{
+  \itemize{
+    \item Correct LaTeX double loading of \code{\usepackage{color}} with
+    different options (Marl van der Loo in \ghpr{18} fixing \ghit{17}).
+  }
+}
+
 \section{Changes in linl version 0.0.2 (2017-10-29)}{
   \itemize{
     \item Set a few defaults for a decent-looking skeleton and template:
