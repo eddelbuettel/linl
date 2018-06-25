@@ -1,7 +1,7 @@
 Package: linl
 Type: Package
 Title: 'linl' is not 'Letter'
-Version: 0.0.2
+Version: 0.0.3
 Date: 2017-10-29
 Author: Dirk Eddelbuettel and Aaron Wolen
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
