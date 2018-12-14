@@ -6,6 +6,10 @@ sudo: required
 
 dist: trusty
 
+env:
+  matrix:
+    - BOOTSTRAP_PANDOC="1"
+
 before_install:
   - curl -OLs https://eddelbuettel.github.io/r-travis/run.sh && chmod 0755 run.sh
   - ./run.sh bootstrap
