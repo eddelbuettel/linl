@@ -1,0 +1,13 @@
+author:
+- Aaron Wolen
+- Your Organization
+opening: To whom it may concern,
+closing: Sincerely,
+address: 
+- 123 Street Rd
+- Chicago, IL
+return-address: 
+- My Home
+- 456 Road St.
+- New York, NY
+output: linl::linl
