@@ -1,3 +1,12 @@
+2018-12-15  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.0.3
+
+2018-06-25  Mark van der Loo  <mark.vanderloo@gmail.com>
+
+	* inst/rmarkdown/templates/pdf/resources/template.tex: Do not load
+	package 'color' twice with different options (when 'letterhead' used)
+
 2017-10-31  Dirk Eddelbuettel  <edd@debian.org>
 
 	* inst/NEWS.Rd: Refer to linl, not tint

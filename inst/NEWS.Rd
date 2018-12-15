@@ -3,10 +3,10 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/linl/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/linl/issues/#1}{##1}}
 
-\section{Changes in linl version 0.0.3 (2018-06-xx)}{
+\section{Changes in linl version 0.0.3 (2018-12-15)}{
   \itemize{
-    \item Correct LaTeX double loading of \code{\usepackage{color}} with
-    different options (Marl van der Loo in \ghpr{18} fixing \ghit{17}).
+    \item Correct LaTeX double loading of package \code{color} with
+    different options (Mark van der Loo in \ghpr{18} fixing \ghit{17}).
   }
 }
 
