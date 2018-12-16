@@ -1,3 +1,7 @@
+2018-12-16  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .travis.yml: Use rocker/r-rmd container for Travis CI
+
 2018-12-15  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Release 0.0.3

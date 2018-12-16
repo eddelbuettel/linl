@@ -1,20 +1,30 @@
-# Run Travis CI for R using https://eddelbuettel.github.io/r-travis/
+# Run Travis CI for R via Docker
+#
+# Made by Dirk Eddelbuettel in December 2018 and released under GPL (>=2)
 
-language: c
-
-sudo: required
-
+os: linux
 dist: trusty
+sudo: required
+services: docker
+
+# with other packages we often say '--no-build-vignettes --no-manual' here
+# but this container is set up just for vignette, markdown and latex
+# so R_BL_CHK_OPTS is empty here
+env:
+  global:
+    - DOCKER_OPTS="--rm -ti -v $(pwd):/mnt -w /mnt"
+      DOCKER_CNTR="rocker/r-rmd"
+      R_BLD_CHK_OPTS=""
 
 before_install:
-  - curl -OLs https://eddelbuettel.github.io/r-travis/run.sh && chmod 0755 run.sh
-  - ./run.sh bootstrap
+ - docker pull ${DOCKER_CNTR}
+ - docker run ${DOCKER_OPTS} ${DOCKER_CNTR} r -p -e 'sessionInfo()'
 
 install:
-  - ./run.sh install_aptget r-cran-rmarkdown
+ - docker run ${DOCKER_OPTS} ${DOCKER_CNTR} R CMD build ${R_BLD_CHK_OPTS} .
 
 script:
-  - ./run.sh run_tests
+ - docker run ${DOCKER_OPTS} ${DOCKER_CNTR} R CMD check ${R_BLD_CHK_OPTS} linl*.tar.gz
 
 after_failure:
   - ./run.sh dump_logs
@@ -23,3 +33,5 @@ notifications:
   email:
     on_success: change
     on_failure: change
+
+    
