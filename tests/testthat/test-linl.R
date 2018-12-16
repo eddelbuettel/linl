@@ -1,6 +1,7 @@
 context("Letter Options")
 
 test_that("Base letter", {
+    skip_on_cran()
     frontmatter$plainquote <- TRUE
     input <- build_rmd(frontmatter, body)
     output <- render(input, output_dir = dirname(input), quiet = quiet)
