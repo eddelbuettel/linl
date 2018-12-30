@@ -15,6 +15,9 @@ env:
     - DOCKER_OPTS="--rm -ti -v $(pwd):/mnt -w /mnt"
       DOCKER_CNTR="rocker/r-rmd"
       R_BLD_CHK_OPTS=""
+      PKG_NAME=$(awk '/Package:/ {print $2}' DESCRIPTION)
+      PKG_VER=$(awk '/Version:/ {print $2}' DESCRIPTION)
+      PKG_TGZ="${PKG_NAME}_${PKG_VER}.tar.gz"
 
 before_install:
  - docker pull ${DOCKER_CNTR}
@@ -24,10 +27,7 @@ install:
  - docker run ${DOCKER_OPTS} ${DOCKER_CNTR} R CMD build ${R_BLD_CHK_OPTS} .
 
 script:
- - docker run ${DOCKER_OPTS} ${DOCKER_CNTR} R CMD check ${R_BLD_CHK_OPTS} linl*.tar.gz
-
-after_failure:
-  - ./run.sh dump_logs
+ - docker run ${DOCKER_OPTS} ${DOCKER_CNTR} R CMD check ${R_BLD_CHK_OPTS} ${PKG_TGZ}
 
 notifications:
   email:
