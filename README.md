@@ -1,4 +1,4 @@
-## linl [![Build Status](https://travis-ci.org/eddelbuettel/linl.svg)](https://travis-ci.org/eddelbuettel/linl) [![Package-License](http://img.shields.io/badge/license-GPL--3-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html) [![CRAN](http://www.r-pkg.org/badges/version/linl)](https://cran.r-project.org/package=linl) [![Downloads](http://cranlogs.r-pkg.org/badges/linl?color=brightgreen)](http://www.r-pkg.org/pkg/linl)
+## linl [![Build Status](https://travis-ci.org/eddelbuettel/linl.svg)](https://travis-ci.org/eddelbuettel/linl) [![Package-License](http://img.shields.io/badge/license-GPL--3-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html) [![CRAN](http://www.r-pkg.org/badges/version/linl)](https://cran.r-project.org/package=linl) [![Dependencies](https://tinyverse.netlify.com/badge/linl)](https://cran.r-project.org/package=linl) [![Downloads](http://cranlogs.r-pkg.org/badges/linl?color=brightgreen)](http://www.r-pkg.org/pkg/linl)
 
 Linl is not Letter: LaTeX Letters from RMarkdown
 
