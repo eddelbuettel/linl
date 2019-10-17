@@ -13,4 +13,5 @@ Imports: rmarkdown, knitr
 Suggests: testthat, yaml
 VignetteBuilder: knitr
 License: GPL-3
+Encoding: UTF-8
 RoxygenNote: 6.1.1
