@@ -22,6 +22,7 @@ ps: |
   PS Lorem ipsum dolor sit amet, *consectetur* adipiscing elit.
 
 letterhead: examples/letterhead.pdf
+letterfoot: examples/letterfoot.pdf
 signature: examples/signature.pdf
 signature-before: -8ex
 signature-after: 0ex
