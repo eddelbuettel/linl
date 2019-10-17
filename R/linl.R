@@ -31,6 +31,7 @@
 #'   \item{\code{encl}}{List of enclosures.}
 #'   \item{\code{inline-links}}{Print links as standard inline hyperlinks rather than footnotes.}
 #'   \item{\code{letterhead}}{Image file to be used as letterhead (requires the \href{https://www.ctan.org/pkg/wallpaper}{\code{wallpaper}} package), applied only to the first page.}
+#'   \item{\code{letterfoot}}{Image file to be used as letterfoot (requires the \href{https://www.ctan.org/pkg/wallpaper}{\code{wallpaper}} package), applied only to the first page.}
 #'   \item{\code{opening}}{Text for the salutation.}
 #'   \item{\code{ps}}{Text to be added at the end of the letter as a postscript.}
 #'   \item{\code{return-address}}{Address of the sender: takes a list to allow a multi-line address.}
