@@ -1,3 +1,14 @@
+2019-10-17 Michal Bojanowski <michal2992@gmail.com>
+
+	* DESCRIPTION: Set Encoding: UTF-8 and use current Roxygen version
+	* inst/rmarkdown/templates/pdf/resources/template.tex: Use
+	'letterfoot' option
+	* R/linl.R: Document the 'letterfoot' option
+	* vignettes/examples/letterfoot.pdf: Add example letterfoot
+	* vignettes/examples/letterfoot.R: Script generating letterfoot (for
+	documentation purposes)
+	* vignettes/linl.Rmd: Demonstrate use of 'letterfoot' option
+
 2019-01-12  Dirk Eddelbuettel  <edd@debian.org>
 
 	* README.md: Add dependency badge

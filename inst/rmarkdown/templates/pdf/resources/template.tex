@@ -229,6 +229,11 @@ $if(letterhead)$
 \ThisULCornerWallPaper{1}{$letterhead$}
 $endif$
 
+$if(letterfoot)$
+\usepackage{wallpaper}
+\ThisLLCornerWallPaper{1}{$letterfoot$}
+$endif$
+
 \begin{document}
 
 $for(include-before)$
