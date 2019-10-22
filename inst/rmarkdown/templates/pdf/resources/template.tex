@@ -226,12 +226,12 @@ $endif$
 
 $if(letterhead)$
 \usepackage{wallpaper}
-\ThisULCornerWallPaper{1}{$letterhead$}
+\ThisU$if(letterhead-side)$$letterhead-side$$else$L$endif$CornerWallPaper{$if(letterhead-scale)$$letterhead-scale$$else$1$endif$}{$letterhead$}
 $endif$
 
 $if(letterfoot)$
 \usepackage{wallpaper}
-\ThisLLCornerWallPaper{1}{$letterfoot$}
+\ThisL$if(letterfoot-side)$$letterfoot-side$$else$L$endif$CornerWallPaper{$if(letterfoot-scale)$$letterfoot-scale$$else$1$endif$}{$letterfoot$}
 $endif$
 
 \begin{document}
