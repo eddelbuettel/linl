@@ -1,3 +1,8 @@
+2019-10-22 Aaron Wolen <aaron@wolen.com>
+
+	* R/linl.R: Add options to specify the scale and alignment-side for headers
+	and footers.
+
 2019-10-17 Michal Bojanowski <michal2992@gmail.com>
 
 	* DESCRIPTION: Set Encoding: UTF-8 and use current Roxygen version
