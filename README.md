@@ -73,6 +73,12 @@ Beyond the R package dependencies, a working `pandoc` binary is needed. RStudio 
 its own copy, otherwise do what is needed on your OS (_i.e._, something like `sudo apt-get
 install pandoc pandoc-citeproc`).
 
+### See Also
+
+- [binb](https://github.com/eddelbuettel/binb): Binb is not Beamer: Stylish pdf Presentations from RMarkdown
+- [pinp](https://github.com/eddelbuettel/pinp): Pinp is not PNAS: Snazzy one-or two column short papers or vignettes 
+- [tint](https://github.com/eddelbuettel/tint): tint is not tufte: Beautiful pdf or html handout or writeups
+
 ### Authors
 
 Dirk Eddelbuettel and Aaron Wolen.

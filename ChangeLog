@@ -1,9 +1,16 @@
-2019-10-22 Aaron Wolen <aaron@wolen.com>
+2019-10-23  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Relase 0.0.4
+
+	* README.md: Add links to binb, pinp, and tint
+	* docs/vignette.png: Updated screenshot with footer
+
+2019-10-22  Aaron Wolen  <aaron@wolen.com>
 
 	* R/linl.R: Add options to specify the scale and alignment-side for headers
 	and footers.
 
-2019-10-17 Michal Bojanowski <michal2992@gmail.com>
+2019-10-17  Michal Bojanowski  <michal2992@gmail.com>
 
 	* DESCRIPTION: Set Encoding: UTF-8 and use current Roxygen version
 	* inst/rmarkdown/templates/pdf/resources/template.tex: Use

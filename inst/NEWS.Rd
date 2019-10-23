@@ -3,6 +3,17 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/linl/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/linl/issues/#1}{##1}}
 
+\section{Changes in linl version 0.0.4 (2019-10-23)}{
+  \itemize{
+    \item Continuous integration tests at Travis are now running via custom
+    Docker container (Dirk in \ghpr{21}).
+    \item A footer for the letter can now be specified (Michal Bojanowski in
+    \ghpr{23} fixing \ghit{10}).
+    \item The header and footer options be customized more extensively, and
+    are documented (Aaron in \ghpr{25} and \ghpr{26}).
+  }
+}
+
 \section{Changes in linl version 0.0.3 (2018-12-15)}{
   \itemize{
     \item Correct LaTeX double loading of package \code{color} with
