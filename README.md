@@ -1,6 +1,7 @@
 ## linl: Linl is not Letter
 
 [![Build Status](https://travis-ci.org/eddelbuettel/linl.svg)](https://travis-ci.org/eddelbuettel/linl) 
+[![CI](https://github.com/eddelbuettel/linl/workflows/ci/badge.svg)](https://github.com/eddelbuettel/linl/actions?query=workflow%3Aci)
 [![Package-License](http://img.shields.io/badge/license-GPL--3-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html) 
 [![CRAN](http://www.r-pkg.org/badges/version/linl)](https://cran.r-project.org/package=linl) 
 [![Dependencies](https://tinyverse.netlify.com/badge/linl)](https://cran.r-project.org/package=linl) 
