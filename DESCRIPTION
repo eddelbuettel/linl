@@ -7,7 +7,7 @@ Author: Dirk Eddelbuettel and Aaron Wolen
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Description: A 'LaTeX' Letter class for 'rmarkdown', using the
  'pandoc-letter' template adapted for use with 'markdown'.
-URL: http://dirk.eddelbuettel.com/code/linl.html
+URL: https://github.com/eddelbuettel/linl, https://dirk.eddelbuettel.com/code/linl.html
 BugReports: https://github.com/eddelbuettel/linl/issues
 Imports: rmarkdown, knitr
 Suggests: testthat, yaml
