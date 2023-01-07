@@ -1,3 +1,17 @@
+2023-01-07  Iñaki Ucar  <iucar@fedoraproject.org>
+
+	* DESCRIPTION (RoxygenNote): Update
+	* R/linl.R: Use the bundled copy 'wallpaper.sty' v1.30, and document new
+	options letterhead-x-offset, letterhead-y-offset, letterfoot-x-offset, and
+	letterfoot-y-offset
+	* man/linl.Rd: Regenerate
+	* inst/rmarkdown/templates/pdf/resources/template.tex: Add new options to
+	template file (see above)
+	* inst/rmarkdown/templates/pdf/resources/wallpaper.sty: Add
+	* vignettes/examples/letterfoot.R: Remove margins
+	* vignettes/examples/letterfoot.pdf: Regenerate
+	* vignettes/linl.Rmd: Add demo of new options (see above)
+
 2022-11-06  Dirk Eddelbuettel  <edd@debian.org>
 
 	* .github/workflows/ci.yaml (jobs): Update to actions/checkout@v3
