@@ -39,7 +39,7 @@ variables in the document metadata:
   \item{\code{letterhead},\code{letterfoot}}{Image file to be used as header or footer (requires the \href{https://www.ctan.org/pkg/wallpaper}{\code{wallpaper}} package), applied only to the first page.}
   \item{\code{letterhead-side},\code{letterfoot-side}}{Specifies which side of the page the header/footer is aligned to. Must be either \code{L} (left, the default) or \code{R} (right).}
   \item{\code{letterhead-scale},\code{letterfoot-scale}}{Scale the header/footer to fraction of page width or height (depending on the file's aspect ratio).}
-  \item{\code{opening}}{Text for the salutation.}
+  \item{\code{letterhead-x-offset},\code{letterhead-y-offset},\code{letterfoot-x-offset},\code{letterfoot-y-offset}}{How far the image must be placed away from the specified corner (0pt by default).}
   \item{\code{ps}}{Text to be added at the end of the letter as a postscript.}
   \item{\code{return-address}}{Address of the sender: takes a list to allow a multi-line address.}
   \item{\code{signature}}{Image file for a signature.}

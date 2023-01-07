@@ -226,12 +226,12 @@ $endif$
 
 $if(letterhead)$
 \usepackage{wallpaper}
-\ThisU$if(letterhead-side)$$letterhead-side$$else$L$endif$CornerWallPaper{$if(letterhead-scale)$$letterhead-scale$$else$1$endif$}{$letterhead$}
+\ThisU$if(letterhead-side)$$letterhead-side$$else$L$endif$PositionWallPaper{$if(letterhead-scale)$$letterhead-scale$$else$1$endif$}{$if(letterhead-x-offset)$$letterhead-x-offset$$else$0pt$endif$}{$if(letterhead-y-offset)$$letterhead-y-offset$$else$0pt$endif$}{$letterhead$}
 $endif$
 
 $if(letterfoot)$
 \usepackage{wallpaper}
-\ThisL$if(letterfoot-side)$$letterfoot-side$$else$L$endif$CornerWallPaper{$if(letterfoot-scale)$$letterfoot-scale$$else$1$endif$}{$letterfoot$}
+\ThisL$if(letterfoot-side)$$letterfoot-side$$else$L$endif$PositionWallPaper{$if(letterfoot-scale)$$letterfoot-scale$$else$1$endif$}{$if(letterfoot-x-offset)$$letterfoot-x-offset$$else$0pt$endif$}{$if(letterfoot-y-offset)$$letterfoot-y-offset$$else$0pt$endif$}{$letterfoot$}
 $endif$
 
 \begin{document}
