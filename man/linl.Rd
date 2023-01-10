@@ -72,6 +72,3 @@ package version 1.17.
 
 Aaron Wolen (2017). pandoc-letter. GitHub Repository. \url{https://github.com/aaronwolen/pandoc-letter}.
 }
-\seealso{
-\code{\link[pinp]{pinp}}
-}

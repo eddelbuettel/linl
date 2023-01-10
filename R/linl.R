@@ -3,7 +3,6 @@
 #' A format suitable for standard letters, along a with a number of
 #' helpful extensions
 #'
-#' @inheritParams rmarkdown::pdf_document
 #' @param ... Additional arguments to \code{rmarkdown::pdf_document}
 #' @param keep_tex A boolean toggle to select whether intermediate
 #' LaTeX files are to be kept, defaults to \code{FALSE}
@@ -43,8 +42,6 @@
 #'
 #' The vignette source shows several of these options in use.
 #'
-#' @seealso
-#' \code{\link[pinp]{pinp}}
 #' @references
 #' JJ Allaire, R Foundation, Hadley Wickham, Journal of Statistical Software, Yihui Xie, Ramnath
 #' Vaidyanathan, Association for Computing Machinery, Carl Boettiger, Elsevier, Karl Broman,
