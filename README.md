@@ -1,10 +1,10 @@
 ## linl: Linl is not Letter
 
 [![CI](https://github.com/eddelbuettel/linl/workflows/ci/badge.svg)](https://github.com/eddelbuettel/linl/actions?query=workflow%3Aci)
-[![Package-License](http://img.shields.io/badge/license-GPL--3-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html) 
-[![CRAN](http://www.r-pkg.org/badges/version/linl)](https://cran.r-project.org/package=linl) 
+[![Package-License](https://img.shields.io/badge/license-GPL--3-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html) 
+[![CRAN](https://www.r-pkg.org/badges/version/linl)](https://cran.r-project.org/package=linl) 
 [![Dependencies](https://tinyverse.netlify.com/badge/linl)](https://cran.r-project.org/package=linl) 
-[![Downloads](http://cranlogs.r-pkg.org/badges/linl?color=brightgreen)](http://www.r-pkg.org/pkg/linl)
+[![Downloads](https://cranlogs.r-pkg.org/badges/linl?color=brightgreen)](https://www.r-pkg.org:443/pkg/linl)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/linl)](https://github.com/eddelbuettel/linl)
 
 ### Motivation
@@ -13,7 +13,7 @@ The LaTeX Letter class is very useful for simple letters.  As such
 letters are also somewhat standardized, they make for excellent
 candidates for use by Markdown.
 
-This package leans on earlier work by [Aaron Wolen](http://aaronwolen.com/) in his
+This package leans on earlier work by [Aaron Wolen](https://www.aaronwolen.com/) in his
 [pandoc-letter](https://github.com/aaronwolen/pandoc-letter) repository, and extends it for use from
 R via the [rmarkdown](https://cran.r-project.org/package=rmarkdown) package.
 
@@ -86,7 +86,9 @@ install pandoc pandoc-citeproc`).
 
 ### Authors
 
-Dirk Eddelbuettel and Aaron Wolen.
+Dirk Eddelbuettel and Aaron Wolen with contribution by Michal Bojanowski and Iñaki Ucar.
+
+The included `wallpaper.sty` was written by Michael H.F. Wilkinson.
 
 ### License
 
