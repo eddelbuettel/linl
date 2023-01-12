@@ -3,6 +3,15 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/linl/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/linl/issues/#1}{##1}}
 
+\section{Changes in linl version 0.0.5 (2023-01-11)}{
+  \itemize{
+    \item Several updates to continuous integration and testing
+    \item Enhanced placment functionality for images in header and footer via
+    \code{wallpaper.sty} and new x and y offset variable (Iñaki Ucar in
+    \ghpr{30})
+  }
+}
+
 \section{Changes in linl version 0.0.4 (2019-10-23)}{
   \itemize{
     \item Continuous integration tests at Travis are now running via custom
