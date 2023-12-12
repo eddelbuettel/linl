@@ -29,6 +29,7 @@ letterfoot-y-offset: 0.4in
 signature: examples/signature.pdf
 signature-before: -8ex
 signature-after: 0ex
+signature-scale: 1
 
 colorlinks: true
 
