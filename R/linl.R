@@ -37,7 +37,7 @@
 #'   \item{\code{ps}}{Text to be added at the end of the letter as a postscript.}
 #'   \item{\code{return-address}}{Address of the sender: takes a list to allow a multi-line address.}
 #'   \item{\code{signature}}{Image file for a signature.}
-#'   \item{\code{signature-before}, \code{signature-after}}{Allows adjustment of vertical space surrounding signature.}
+#'   \item{\code{signature-before}, \code{signature-after}, \code{signature-scale}}{Allows adjustment of vertical space surrounding signature and the scaling of the signature image (1.0 being the default if unspecified).}
 #' }
 #'
 #' The vignette source shows several of these options in use.
