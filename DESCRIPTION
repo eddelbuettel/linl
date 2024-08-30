@@ -3,8 +3,10 @@ Type: Package
 Title: 'linl' is not 'Letter'
 Version: 0.0.5
 Date: 2023-01-11
-Author: Dirk Eddelbuettel and Aaron Wolen
-Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Authors@R: c(person("Dirk", "Eddelbuettel", role = c("aut", "cre"), email = "edd@debian.org",
+                    comment = c(ORCID = "0000-0001-6419-907X")),
+             person("Aaron", "Wolen", role = "aut",
+                    comment = c(ORCID = "0000-0003-2542-2202")))
 Description: A 'LaTeX' Letter class for 'rmarkdown', using the
  'pandoc-letter' template adapted for use with 'markdown'.
 URL: https://github.com/eddelbuettel/linl, https://dirk.eddelbuettel.com/code/linl.html
