@@ -62,12 +62,18 @@ render("myletter.Rmd")
 
 to create a first draft of a new `myletter.Rmd`.        
 
-Interim and test versions may also appear on the [ghrr drat repo](https://ghrr.github.io/drat/) from
-which they can be installed via one additional line as in
+Development versions of the package may also be available via by r-universe
+which can accessed via
 
-```r
-drat:::addRepo("ghrr")     # registers the ghrr drat repo
-install.packages("linl")   # installs linl from ghrr
+```{.r}
+install.packages('linl',
+                 repos = c('https://eddelbuettel.r-universe.dev',
+                           'https://cloud.r-project.org'))
+```
+
+which offers source and binaries releases based on the main `git` branch for the common operating
+systems.  Linux binaries are also available, see the corresponding
+[documentation](https://docs.r-universe.dev/install/binaries.html#binaries-linux).
 ```
 
 Once installed, the above code examples should work as expected.
