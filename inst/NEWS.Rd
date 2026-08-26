@@ -3,6 +3,13 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/linl/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/linl/issues/#1}{##1}}
 
+\section{Changes in linl version 0.0.6 (2026-08-26)}{
+  \itemize{
+    \item Several updates to continuous integration and testing
+    \item Switch to Authors@R in DESCRIPTION
+  }
+}
+
 \section{Changes in linl version 0.0.5 (2023-01-11)}{
   \itemize{
     \item Several updates to continuous integration and testing

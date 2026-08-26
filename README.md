@@ -1,9 +1,10 @@
 ## linl: Linl is not Letter
 
 [![CI](https://github.com/eddelbuettel/linl/workflows/ci/badge.svg)](https://github.com/eddelbuettel/linl/actions?query=workflow%3Aci)
-[![Package-License](https://img.shields.io/badge/license-GPL--3-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html) 
+[![Package-License](https://img.shields.io/badge/license-GPL--3-brightgreen.svg?style=flat)](https://www.r-project.org/Licenses/GPL-3)
 [![CRAN](https://www.r-pkg.org/badges/version/linl)](https://cran.r-project.org/package=linl) 
-[![Dependencies](https://tinyverse.netlify.app/badge/linl)](https://cran.r-project.org/package=linl) 
+[![Dependencies](https://tinyverse.netlify.app/badge/linl)](https://cran.r-project.org/package=linl)
+[![r-universe](https://eddelbuettel.r-universe.dev/badges/linl)](https://eddelbuettel.r-universe.dev/linl)
 [![Downloads](https://cranlogs.r-pkg.org/badges/linl?color=brightgreen)](https://www.r-pkg.org:443/pkg/linl)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/linl)](https://github.com/eddelbuettel/linl)
 
@@ -74,7 +75,6 @@ install.packages('linl',
 which offers source and binaries releases based on the main `git` branch for the common operating
 systems.  Linux binaries are also available, see the corresponding
 [documentation](https://docs.r-universe.dev/install/binaries.html#binaries-linux).
-```
 
 Once installed, the above code examples should work as expected.
 
